@@ -16,5 +16,3 @@ RUN mix archive.install --force https://github.com/phoenixframework/archives/raw
 RUN mkdir /myapp
 WORKDIR /myapp
 ADD . /myapp
-
-RUN mix deps.get
