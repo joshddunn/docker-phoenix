@@ -1,7 +1,7 @@
-FROM elixir:1.6
+FROM elixir:1.6.6
 
 RUN apt-get update
-RUN apt-get install --yes build-essential inotify-tools postgresql-client
+RUN apt-get install -y build-essential
 
 RUN curl -sL https://deb.nodesource.com/setup_8.x -o nodesource_setup.sh
 RUN bash nodesource_setup.sh
