@@ -1,4 +1,4 @@
-# Elixir Phoenix in a Docker container
+# Docker container for Elixir Phoenix
 
 Usage steps:
   1. Clone the repository
