@@ -1,9 +1,10 @@
-# Docker container for Elixir Phoenix
+# Fawkes
+
+This is a easy to use docker container to build things in elixir and phoenix.
 
 Usage steps:
   1. clone this repository
-  2. run `docker-compose run app mix phx.new . --module MyApp`
-  3. set `hostname: "db"` in `config/dev.exs`
-  4. run `docker-compose up`
+  2. run `sh fawkes`
+  3. run `docker-compose up`
 
 Happy hacking! 🤖
