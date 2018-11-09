@@ -1,4 +1,4 @@
-# Fawkes
+# Fawkes 🔥
 
 This is a easy to use docker container for elixir and phoenix.
 
