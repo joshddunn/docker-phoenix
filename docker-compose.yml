@@ -3,7 +3,7 @@ services:
   db:
     image: postgres
 
-  web:
+  app:
     build: .
     command: >
       bash -c "
