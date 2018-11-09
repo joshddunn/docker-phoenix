@@ -1,6 +1,6 @@
 # Fawkes
 
-This is a easy to use docker container to build things in elixir and phoenix.
+This is a easy to use docker container for elixir and phoenix.
 
 Usage steps:
   1. clone this repository
