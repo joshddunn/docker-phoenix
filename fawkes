@@ -2,5 +2,5 @@
 
 docker-compose run app mix phx.new . --module MyApp
 
-find config/test.exs -type f -exec sed -i 's/localhost/db/g' {} \;
-find config/dev.exs -type f -exec sed -i 's/localhost/db/g' {} \;
+sed -i -- 's/localhost/db/g' config/dev.exs
+sed -i -- 's/localhost/db/g' config/test.exs
