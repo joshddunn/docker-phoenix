@@ -1,7 +1,0 @@
-# Use this at bottom of config/dev.exs
-adapter: Ecto.Adapters.Postgres,
-username: "postgres",
-password: "",
-database: "myapp_dev",
-hostname: "db",
-pool_size: 10
