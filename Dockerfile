@@ -11,7 +11,7 @@ RUN apt-get install -y nodejs
 
 RUN mix local.hex --force
 RUN mix local.rebar --force
-RUN mix archive.install --force https://github.com/phoenixframework/archives/raw/master/phx_new.ez
+RUN mix archive.install --force archive.install hex phx_new 1.4.0
 
 RUN mkdir /myapp
 WORKDIR /myapp
