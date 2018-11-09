@@ -1,6 +1,6 @@
 # Fawkes 🔥
 
-This is a easy to use docker container for elixir and phoenix.
+This is an easy to use docker container for elixir and phoenix.
 
 Usage steps:
   1. clone this repository
