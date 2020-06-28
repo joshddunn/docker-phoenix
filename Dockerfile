@@ -1,7 +1,7 @@
 FROM elixir:1.10
 
 RUN apt-get update
-RUN apt-get install -y build-essential
+RUN apt-get install -y build-essential inotify-tools
 
 RUN curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh
 RUN bash nodesource_setup.sh
