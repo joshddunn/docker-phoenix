@@ -2,7 +2,6 @@ version: '3.2'
 services:
   db:
     image: postgres
-
   app:
     build: .
     command: >
@@ -15,6 +14,8 @@ services:
         mix ecto.migrate &&
         iex -S mix phx.server
       "
+    env_file:
+      .env
     volumes:
       - .:/myapp
     ports:
