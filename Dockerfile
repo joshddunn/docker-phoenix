@@ -1,4 +1,4 @@
-FROM elixir:1.10
+FROM elixir:1.11
 
 RUN apt-get update
 RUN apt-get install -y build-essential inotify-tools
@@ -11,7 +11,7 @@ RUN apt-get install -y nodejs
 
 RUN mix local.hex --force
 RUN mix local.rebar --force
-RUN mix archive.install --force hex phx_new 1.5.3
+RUN mix archive.install --force hex phx_new 1.5.7
 
 RUN mkdir /myapp
 WORKDIR /myapp
