@@ -1,4 +1,4 @@
-# fawkes 🔥
+# Docker Phoenix 🔥
 
 This is an easy to use docker container for [elixir](https://elixir-lang.org/) and [phoenix](https://phoenixframework.org/).
 
