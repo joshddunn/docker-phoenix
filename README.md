@@ -12,7 +12,7 @@ Clone this repository and run
 docker-compose run app mix phx.new . --live --module MyApp --app my_app
 ```
 
-Then you can remove the line
+Then you can remove
 
 ```
 RUN mix archive.install --force hex phx_new
