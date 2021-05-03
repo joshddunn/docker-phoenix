@@ -2,8 +2,20 @@
 
 This is an easy to use docker container for [elixir](https://elixir-lang.org/) and [phoenix](https://phoenixframework.org/).
 
-## TODO improve fawkes so it can handle outputs
+## Usage
 
-Happy hacking! 🤖
+Before installing you may need to clean up your docker images if you already have `elixir:latest` installed.
 
-![reborn](https://thumbs.gfycat.com/PlainHonorableKomododragon-size_restricted.gif)
+Clone this repository and run
+
+```
+docker-compose run app mix phx.new . --live --module MyApp --app my_app
+```
+
+Then you can remove the line
+
+```
+RUN mix archive.install --force hex phx_new
+```
+
+from the `Dockerfile`.
